@@ -1,0 +1,180 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+/* first section */
+.container {
+    padding: 20px 100px 20px 100px;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.first-text {
+    color: aliceblue;
+    margin-left: 90px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+#pragrap {
+    color: grey;
+    margin-top: 0%;
+}
+
+.messi {
+    margin-top: 100px;
+}
+
+.watch-live {
+    background-color: tomato;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+
+/* second section  */
+
+
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 20px 100px 20px 100px;
+}
+
+.container-1 {}
+
+.button-box {
+    display: grid;
+    align-items: center;
+    padding-left: 20px;
+    background-color: black;
+    height: 312px;
+    width: 190px;
+    left: 140px;
+    top: 826px;
+    border-radius: 10px;
+
+}
+
+.match-button {
+    font-size: 20px;
+    height: 30px;
+    width: 174px;
+    left: 209px;
+    top: 873px;
+    border-radius: 10px;
+
+}
+
+.group-button {
+    font-size: 20px;
+    height: 30px;
+    width: 174px;
+    left: 209px;
+    top: 873px;
+    border-radius: 10px;
+
+}
+
+.blog-button {
+    font-size: 20px;
+    background-color: red;
+    height: 30px;
+    width: 174px;
+    left: 209px;
+    top: 873px;
+    border-radius: 10px;
+
+}
+
+
+
+.conteiner-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+
+
+}
+
+.match-videos {
+    background-color: aliceblue;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    color: rgb(169, 164, 164);
+
+}
+
+.times {
+    margin-left: 20px;
+    padding-right: 40px;
+
+}
+
+/* footer aria  */
+
+.last-conteiner {
+    background-color: rgb(1, 1, 13);
+    padding: 60px;
+}
+
+
+
+.goal {
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+hr {
+    color: grey;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: none;
+    padding: 50px;
+}
+
+.contact,
+h4 {
+
+    padding-left: 50px;
+}
+
+.icon-box {
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
