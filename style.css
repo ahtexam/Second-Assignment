@@ -10,7 +10,6 @@ body {
 /* first section */
 .container {
     padding: 20px 100px 20px 100px;
-
 }
 
 .banner {
@@ -18,7 +17,6 @@ body {
     grid-template-columns: 40% 60%;
     background-color: black;
     border-radius: 20px;
-
 }
 
 .first-text {
@@ -47,13 +45,10 @@ h1 {
     margin: 20px;
     color: aliceblue;
     font-size: 20px;
-    border-radius: 5px;
-
-
+    border-radius: 5px
 }
 
 /* second section  */
-
 
 
 header {
@@ -61,8 +56,6 @@ header {
     grid-template-columns: 20% 80%;
     padding: 20px 100px 20px 100px;
 }
-
-
 
 .button-box {
     display: grid;
@@ -74,7 +67,6 @@ header {
     left: 140px;
     top: 826px;
     border-radius: 10px;
-
 }
 
 .match-button {
@@ -97,7 +89,6 @@ header {
     left: 209px;
     top: 873px;
     border-radius: 10px;
-
 }
 
 .blog-button {
@@ -108,15 +99,11 @@ header {
     left: 209px;
     top: 873px;
     border-radius: 10px;
-
 }
-
-
 
 .conteiner-2 {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-
 
 }
 
@@ -142,18 +129,16 @@ header {
 .times {
     margin-left: 20px;
     padding-right: 40px;
-
 }
 
 
 /* footer aria  */
 
+
 .last-conteiner {
     background-color: rgb(1, 1, 13);
     padding: 60px;
 }
-
-
 
 .goal {
     color: white;
@@ -255,6 +240,11 @@ h4 {
 
 
 @media only screen and (max-width:1023px) and (min-width:688px) {
+    header {
+        grid-template-columns: repeat(1, 1fr);
+        width: 912px;
+        padding: 0%;
+    }
 
     .container {
         padding: 0%;
@@ -282,11 +272,6 @@ h4 {
         width: 912px;
     }
 
-    header {
-        grid-template-columns: repeat(1, 1fr);
-        width: 912px;
-        padding: 0%;
-    }
 
 
 
